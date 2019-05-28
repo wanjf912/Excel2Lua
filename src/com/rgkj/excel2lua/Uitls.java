@@ -1,4 +1,4 @@
-package com.rgkj.excel2lua;
+package com.rgkj.excel2Lua;
 
 public class Uitls {
 	public static boolean isNumeric(String str){

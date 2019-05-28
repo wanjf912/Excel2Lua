@@ -1,4 +1,4 @@
-package com.rgkj.excel2lua;
+package com.rgkj.excel2Lua;
 
 import java.awt.List;
 import java.io.BufferedInputStream;
@@ -118,6 +118,7 @@ public class Excel2Lua {
 	    int rowIndex = cell.getRowIndex() + 1;
 	    int colIndex = cell.getColumnIndex() + 1;
 	    String rowColFmt = cell.getSheet().getSheetName() + "表内的第" + rowIndex + "行," + "第" + colIndex + "列的";
+	    typeString = typeString.replace(" ", "");
 	    if (typeString.equals("string"))
 	    {
 	      if (cellType == 0) {
